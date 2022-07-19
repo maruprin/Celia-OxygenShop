@@ -1,0 +1,301 @@
+
+@import './variables';
+@import './mixins';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+body{
+    min-width: 320px;
+    background-color:$primaryColor;
+.nav{
+    width: 100%;
+    height: 50px; 
+    background-color: white; 
+  
+    &__h1{
+        width: 40%;
+        color:$textColor;
+        font-family:'Raleway';
+        font-style: normal;
+        font-size: 16px;
+        float: left;
+        position: relative;
+        margin: 15px;    
+    }
+    &__img{
+        width: 40%;
+        float: right;
+        position: relative;
+        margin-top: 20px;
+        img{
+            width: 20px;
+            margin-left:70%;
+        }
+    }
+}
+hr{
+    width: 100%;
+    background-color: lightgrey;
+}
+.container{
+    width: 100%;
+    align-items: center;
+    margin-top: 0;
+ 
+    &__primary{
+        text-align: center;
+        background-color: white;
+      
+       
+        &--title{
+            font-family:'Raleway';
+            font-size: 30px;
+            padding-top: 50px;
+        }
+        &--body{
+            font-family: 'Raleway';
+            font-size: 16px;
+            margin: 20px;
+        }
+        &--button{
+            width: 70%;
+            padding: 15px;
+            border-radius: 60px;
+            border:none;
+            background-color: $textColor;
+            box-shadow:5px 5px 5px $textColor;
+            color: whitesmoke;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        &--img{
+            width: 100%;
+            margin-left: 0;  
+        }
+        &--text{
+            font-family: 'Raleway';
+            font-size: 25px;
+            margin: 30px;
+        }
+        &--person{
+            position:relative;
+            background-color: #fb3b64;
+            margin-left: 40%;
+            margin-right: 20%;
+            margin-bottom: 10px;
+            width: 75px;
+            height: 75px;
+           border-radius: 50%;
+       
+            .person{
+                width: 60%;
+                margin-top: 10%;
+                margin-left: 55%;
+            }
+ 
+        }
+        .numberPerson{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            margin-left: 10%;
+            margin-bottom: 5%; 
+        }
+        .textPerson{
+            font-family: 'Raleway';
+            margin-left: 10%;
+        }
+        &--eye{
+            position:relative;
+            background-color: $textColor;
+            margin-left: 40%;
+            margin-right: 20%;
+            margin-bottom: 10px;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            margin-top: 10%;
+       
+            .eye{
+                width: 80%;
+                margin-top: 30%;
+                margin-left: 40%;
+            }
+        }
+        .numberEye{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            margin-left: 10%;
+            margin-bottom: 5%; 
+        }
+        .textEye{
+            font-family: 'Raleway';
+            margin-left: 10%;
+        }
+        &--catalogo{
+            position:relative;
+            background-color: #55DFB4;
+            margin-left: 40%;
+            margin-right: 20%;
+            margin-bottom: 10px;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            margin-top: 10%;
+       
+            .catalogo{
+                width: 70%;
+                margin-top: 10%;
+                margin-left: 60%;
+            }
+        }
+        .numberCatalogo{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            margin-left: 10%;
+            margin-bottom: 5%; 
+        }
+        .textCatalogo{
+            font-family: 'Raleway';
+            margin-left: 10%;
+           padding-bottom: 20%;
+        }
+    }
+    &__secondary{
+            width: 90%;
+            padding:5px;
+            margin-top:15%;
+            margin-bottom: 15%;
+            margin-left: 10%;
+            background-color: white;
+        &--image{
+            position: absolute;
+            background-color:#FB3B64;
+            border:2px black;
+            width: 30%;
+            height: 10%;
+            margin-left: 50%;
+            border-radius: 42px;
+            transform: rotate(-45deg);
+                
+
+        }
+       .imageSecond{
+        position: relative;
+         width: 80%;
+         margin-left: 10%;
+         margin-top:10px;
+         padding-top: 20%;
+        
+        }
+                
+        &--title{
+            font-family:'Raleway';
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        &--text{
+            font-family: 'Raleway';
+            font-size: 14px;
+            margin: 15px;
+            padding-bottom: 20px;
+    
+        }
+    }
+    &__third{
+        width: 90%;
+        padding: 5px;
+        margin-top:15%;
+        margin-bottom: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: white;
+        &--contImage{
+            padding-top: 20px;
+            background-color:$textColor;
+            width: 70%;
+            border-radius: 50%;
+            .imageThird{
+                width: 100%;
+                margin-left:40px;
+                margin-top:30px;
+            
+            }
+        }
+        &--img{
+            width: 70%;
+            align-items: center;
+            background-color:#55DFB4;
+        }
+        &--title{
+            font-family:'Raleway';
+            font-size: 30px;
+            margin-left: 20px;
+        
+        }
+        &--text{
+            font-family: 'Raleway';
+            font-size: 14px;
+            margin: 15px;
+            padding-bottom: 20px;
+
+        }
+}
+    &__fourth{
+            width: 90%;
+            margin-top:15%;
+            margin-bottom: 15%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-color: white;
+            &--title{
+                padding-top: 20px;
+                font-family:'Raleway';
+                font-size: 30px;
+                margin-left: 20px;
+            }
+            &--text{
+                font-family: 'Raleway';
+                font-size: 14px;
+                margin: 15px;
+
+            }
+            &--img{
+                width: 100%;
+                margin:0;
+                background-color:#55DFB4;
+            }
+}
+
+
+   
+
+
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1000px){
+
+    
+}
