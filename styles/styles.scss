@@ -1,12 +1,12 @@
 
 @import './variables';
-@import './mixins';
+
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+
 
 body{
     min-width: 320px;
@@ -269,68 +269,71 @@ hr{
                     background-color:#55DFB4;
                 }
         }
+       
+    
     }
 
-    .containerPricing{
-        width: 100%;
-        background-color: white;
+    .containerTwo{
+       background-color: white;
+       width: 100%;
+       .price{
+        font-family: 'Raleway';
+        font-size: 30px;
+        text-align: center;
+        padding-top: 50px;
+       }
+       .containerRed{
+        display:flex;
+        width: 250px;
+        height: 250px;
+        border: 1px solid #FB3B64;
+        border-radius: 18px;
+        margin-left: 40px;
+        margin-top: 20px;
+        .basic{
+            width: 100px;
+            margin-top: 40%;
+            margin-left: 10px;
+            .title{
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+              
+            }
+            .amount{
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-size: 46px;
+                color:#FB3B64
+            }
+        }
+        .content{
         
+            width: 175px;
+            height: 100%;
+            margin-left: 10%;
+            
+            p{
+                margin-left: 10px;
+                font-family: 'Raleway';
+                font-size: 14px;
+            }
+
+        }
+        
+       }
+
+    }
+
+   
+   
      
-        &__h3{
-            font-family:'Raleway';
-            font-size: 30px;
-            text-align: center;
-            padding-top: 50px;
-        }
-        
-        &__first{
-          
-            width: 250px;
-            height: 250px ;
-            border: 1px solid #FB3B64;
-            border-radius: 18px;
-            margin-left: 40px;
-            margin-top: 20px;
+
+    
+
+    
            
-           
-
-            &--basic{
-              
-                width: 100px;
-                margin-top: 30%;
-                margin-left: 20px;
-        
-                .title{
-                    font-family: 'Raleway';
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 20px;
-                    line-height: 24px;
-            
-                   
-                }
-                .price{
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 300;
-                    font-size: 46px;
-                    line-height: 64px;
-                    color:#FB3B64;
-                }
-            }
-            &--content{
-              
-                width: 100px;
-                margin-left: 50%;
-
-            }
-           
-
-
-            
-        }
-
-    }    
 
 
 
@@ -339,6 +342,7 @@ hr{
 
 
 
+}
 }
 
 
@@ -358,8 +362,3 @@ hr{
 
 
 
-
-@media screen and (min-width: 1000px){
-
-    
-}
