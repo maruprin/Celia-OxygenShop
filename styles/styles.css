@@ -313,18 +313,22 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border: 1px solid #FB3B64;
   border-radius: 18px;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-top: 20px;
+  margin-right: 20px;
 }
 
 * body .containerTwo .containerRed .basic {
   width: 100px;
-  margin-top: 40%;
-  margin-left: 10px;
+  height: 100px;
+  margin-top: 20%;
+  margin-left: 15px;
+  text-align: center;
+  background-color: #55DFB4;
 }
 
 * body .containerTwo .containerRed .basic .title {
@@ -337,19 +341,29 @@
 * body .containerTwo .containerRed .basic .amount {
   font-family: 'Open Sans';
   font-style: normal;
-  font-size: 46px;
+  font-size: 36px;
   color: #FB3B64;
 }
 
 * body .containerTwo .containerRed .content {
-  width: 175px;
-  height: 100%;
-  margin-left: 10%;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  margin-left: 20%;
+  margin-top: 20px;
+  background-color: beige;
 }
 
 * body .containerTwo .containerRed .content p {
   margin-left: 10px;
   font-family: 'Raleway';
-  font-size: 14px;
+  font-size: 12px;
+}
+
+* body .containerTwo .containerRed .buttonRed {
+  padding: 20px;
+  margin-top: 90%;
+  height: 50px;
+  background-color: #FB3B64;
 }
 /*# sourceMappingURL=styles.css.map */

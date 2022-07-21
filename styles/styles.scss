@@ -284,45 +284,57 @@ hr{
        }
        .containerRed{
         display:flex;
-        width: 250px;
-        height: 250px;
+      
+        width: 300px;
+        height: 300px;
         border: 1px solid #FB3B64;
         border-radius: 18px;
-        margin-left: 40px;
+        margin-left: 20px;
         margin-top: 20px;
+        margin-right: 20px;
         .basic{
             width: 100px;
-            margin-top: 40%;
-            margin-left: 10px;
+            height: 100px;
+            margin-top: 20%;
+            margin-left: 15px;
+            text-align: center;
+            background-color: #55DFB4;
             .title{
                 font-family: 'Raleway';
                 font-style: normal;
                 font-weight: bold;
-                font-size: 20px;
-              
+                font-size: 20px;   
+                  
             }
             .amount{
                 font-family: 'Open Sans';
                 font-style: normal;
-                font-size: 46px;
+                font-size: 36px;
                 color:#FB3B64
             }
         }
         .content{
-        
-            width: 175px;
-            height: 100%;
-            margin-left: 10%;
-            
-            p{
+            padding: 20px;
+            width: 200px;
+            height: 200px;
+            margin-left: 20%;
+            margin-top:20px; 
+            background-color: beige;      
+               p{
                 margin-left: 10px;
                 font-family: 'Raleway';
-                font-size: 14px;
+                font-size: 12px;
             }
-
         }
+        .buttonRed{
+            padding: 20px;
+            margin-top:90%;
+            height: 50px;
+            background-color: #FB3B64;
         
+        }
        }
+  
 
     }
 
