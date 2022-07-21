@@ -6,7 +6,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+}
 
 body{
     min-width: 320px;
@@ -274,22 +274,24 @@ hr{
     .containerPricing{
         width: 100%;
         background-color: white;
-        margin:0;
+        
+     
         &__h3{
             font-family:'Raleway';
             font-size: 30px;
             text-align: center;
             padding-top: 50px;
         }
+        
         &__first{
-
+          
             width: 250px;
             height: 250px ;
             border: 1px solid #FB3B64;
             border-radius: 18px;
             margin-left: 40px;
             margin-top: 20px;
-            text-align: center;
+           
            
 
             &--basic{
@@ -297,16 +299,15 @@ hr{
                 width: 100px;
                 margin-top: 30%;
                 margin-left: 20px;
-                display: inline;
-   
-               
+        
                 .title{
                     font-family: 'Raleway';
                     font-style: normal;
                     font-weight: bold;
                     font-size: 20px;
                     line-height: 24px;
-                    color:#13253B;
+            
+                   
                 }
                 .price{
                     font-family: 'Open Sans';
@@ -318,7 +319,9 @@ hr{
                 }
             }
             &--content{
+              
                 width: 100px;
+                margin-left: 50%;
 
             }
            
@@ -331,13 +334,13 @@ hr{
 
 
 
-
+    
     
 
 
 
 }
-}
+
 
 
 
