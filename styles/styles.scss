@@ -91,7 +91,7 @@ hr{
                 margin-bottom: 10px;
                 width: 75px;
                 height: 75px;
-            border-radius: 50%;
+                border-radius: 50%;
         
                 .person{
                     width: 60%;
@@ -172,6 +172,7 @@ hr{
                 margin-top:15%;
                 margin-bottom: 15%;
                 margin-left: 10%;
+                margin-right: 10%;
                 background-color: white;
             &--image{
                 position: absolute;
@@ -555,7 +556,12 @@ hr{
     
     }
 
-   
 }
+}
+
+@media only screen and (min-width: 1000px) {
+
+
+
 }
 
