@@ -270,8 +270,7 @@ hr{
                 }
         }
        
-    
-    }
+       }
 
     .containerTwo{
        background-color: white;
@@ -284,7 +283,7 @@ hr{
        }
        .containerRed{
         display: flex;
-       position: relative;
+        position: relative;
         width: 250px;
         height: 250px;
         border: 1px solid #FB3B64;
@@ -295,7 +294,7 @@ hr{
         .basic{
             width: 75px;
             height: 75px;
-            margin-top: 30%;
+            margin-top: 40%;
             margin-left: 15px;
             text-align: center;
             
@@ -303,8 +302,7 @@ hr{
                 font-family: 'Raleway';
                 font-style: normal;
                 font-weight: bold;
-                font-size: 16px;   
-                  
+                font-size: 16px;            
             }
             .amount{
                 font-family: 'Open Sans';
@@ -313,15 +311,14 @@ hr{
                 color:#FB3B64;
             }
         }
-        .content{
-            padding: 20px;
+        .content{ 
             width: 175px;
             height: 175px;
-            margin-left: 10%;
             margin-top:10px; 
               
                p{
-                margin-left: 10px;
+                margin-left: 20px;
+                margin-top:10px;
                 font-family: 'Raleway';
                 font-size: 12px;
             }
@@ -336,9 +333,7 @@ hr{
             margin-left: -25px;
             border-radius: 18px;
             border:1px solid #fb3b64;
-            color:white;
-          
-        
+            color:white;         
         }
        }
        .containerBlue{
@@ -347,6 +342,7 @@ hr{
         width: 300px;
         height: 250px;
         border: 1px solid $textColor;
+        box-shadow: 0px 4px 10px 0px $textColor;
         border-radius: 18px;
         margin-left: 10px;
         margin-top: 20px;
@@ -362,8 +358,7 @@ hr{
                 font-family: 'Raleway';
                 font-style: normal;
                 font-weight: bold;
-                font-size: 16px;   
-                  
+                font-size: 16px;            
             }
             .amount{
                 font-family: 'Open Sans';
@@ -372,15 +367,14 @@ hr{
                 color:$textColor;
             }
         }
-        .content{
-            padding: 20px;
+        .content{         
             width: 225px;
             height: 200px;
-            margin-left: 10%;
             margin-top:20px; 
               
                p{
-                margin-left: 10px;
+                margin-left: 25px;
+                margin-top: 10px;
                 font-family: 'Raleway';
                 font-size: 12px;
             }
@@ -396,33 +390,30 @@ hr{
             border-radius: 18px;
             border:1px solid $textColor;
             color:white;
-          
-        
         }
     }
-    .containerGreen{
-        display: flex;
-       position: relative;
-        width: 250px;
-        height: 250px;
-        border: 1px solid #55DFB4;
-        border-radius: 18px;
-        margin-left: 40px;
-        margin-top: 20px;
-        margin-right: 20px;
-        .premiun{
-            width: 75px;
-            height: 75px;
-            margin-top: 30%;
-            margin-left: 15px;
-            text-align: center;
+        .containerGreen{
+            display: flex;
+            position: relative;
+            width: 250px;
+            height: 250px;
+            border: 1px solid #55DFB4;
+            border-radius: 18px;
+            margin-left: 40px;
+            margin-top: 20px;
+            margin-right: 20px;
+            .premiun{
+                width: 75px;
+                height: 75px;
+                margin-top: 30%;
+                margin-left: 15px;
+                text-align: center;
             
             .title{
                 font-family: 'Raleway';
                 font-style: normal;
                 font-weight: bold;
-                font-size: 16px;   
-                  
+                font-size: 16px;                     
             }
             .amount{
                 font-family: 'Open Sans';
@@ -435,21 +426,21 @@ hr{
                 font-style: normal;
                 font-weight: bold;
                 font-size: 10px; 
+                }
             }
-        }
-        .content{
-            padding: 20px;
-            width: 175px;
-            height: 175px;
-            margin-left: 10%;
-            margin-top:10px; 
-              
-               p{
-                margin-left: 10px;
-                font-family: 'Raleway';
-                font-size: 12px;
+            .content{
+            
+                width: 175px;
+                height: 175px;
+                margin-top:10px; 
+                
+                p{
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    font-family: 'Raleway';
+                    font-size: 12px;
+                }
             }
-        }
         .buttonGreen{
            position: absolute;
             background-color: #55DFB4;
@@ -460,43 +451,30 @@ hr{
             margin-left: -25px;
             border-radius: 18px;
             border:1px solid #55DFB4;
-            color:white;
-          
-        
+            color:white;   
         }
-       }
-}
+    }
+
+    .contact{
+        width: 300px;
+        margin:30px;
+        .other{
+            font-family: 'Raleway';
+            color:black;
+            margin:10px;
+        }
+      
+    }
+    .infor{
+        width: 300px;
+        margin:30px;
+        font-family: 'Raleway';
+    }
+
+
+    }
 
    
-   
-     
-
-    
-
-    
-           
-
-
-
-    
-    
-
-
-
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
