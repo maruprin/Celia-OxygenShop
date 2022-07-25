@@ -44,6 +44,7 @@ hr{
 }
 
     .container{
+        
         width: 100%;
         align-items: center;
         margin-top: 0;
@@ -556,12 +557,15 @@ hr{
     
     }
 
+
 }
+
+@media only screen and (min-width: 321px) {
+body{
+    width: 100%;
 }
 
-@media only screen and (min-width: 1000px) {
 
-
-
+}
 }
 
