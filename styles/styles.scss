@@ -758,13 +758,13 @@ background-color: #E5E5E5;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-   
-
+    
+ 
     .containerRed{
         display: flex;
         flex-direction: column;
-        height: 300px;
-          
+        height: 300px; 
+        margin-left: 0%;     
       
         .basic{
             margin-top: 15px;
@@ -787,6 +787,9 @@ background-color: #E5E5E5;
         display: flex;
         flex-direction: column;  
         height: 300px;
+        margin-left: 0%;
+      
+       
      
         
         .profesional{
@@ -809,6 +812,9 @@ background-color: #E5E5E5;
         display: flex;
         flex-direction: column;
         height: 300px;
+        margin-left: 0%;
+    
+       
         .premiun{
             margin-top: 15px;
             padding: 10px;
@@ -826,7 +832,7 @@ background-color: #E5E5E5;
             margin-left: 5%;  
             
          
-        }
+       }
     
 }
 
@@ -858,7 +864,6 @@ background-color: #E5E5E5;
         }
 
     }
-   
 
     form{
         width: 100%;
@@ -875,27 +880,12 @@ background-color: #E5E5E5;
             .dataProtection{
                 width: 75%;
             }
-            .buttonSend{
-                margin-left:30%;
-                margin-bottom: 30px;
-                padding-bottom: 60px;
-                button{
-                background-color: #08A6E4;
-                width: 150px;
-                height: 30px;
-                bottom: 0;
-                left: 40%;
-                margin-left: -25px;
-                border-radius: 18px;
-                border:1px solid #08A6E4;
-                color:white;   
-
-            }
+            
         }
     }
 }
 }
 
 
-}
+
 

@@ -836,6 +836,7 @@ footer .logos {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 300px;
+    margin-left: 0%;
   }
   .finishContainer .containerRed .basic {
     margin-top: 15px;
@@ -861,6 +862,7 @@ footer .logos {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 300px;
+    margin-left: 0%;
   }
   .finishContainer .containerBlue .profesional {
     width: 100%;
@@ -885,6 +887,7 @@ footer .logos {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 300px;
+    margin-left: 0%;
   }
   .finishContainer .containerGreen .premiun {
     margin-top: 15px;
@@ -946,22 +949,6 @@ footer .logos {
   }
   .information form ul .dataProtection {
     width: 75%;
-  }
-  .information form ul .buttonSend {
-    margin-left: 30%;
-    margin-bottom: 30px;
-    padding-bottom: 60px;
-  }
-  .information form ul .buttonSend button {
-    background-color: #08A6E4;
-    width: 150px;
-    height: 30px;
-    bottom: 0;
-    left: 40%;
-    margin-left: -25px;
-    border-radius: 18px;
-    border: 1px solid #08A6E4;
-    color: white;
   }
 }
 /*# sourceMappingURL=styles.css.map */
