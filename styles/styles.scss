@@ -323,21 +323,32 @@ background-color: #E5E5E5;
             }         
     }
          
-         
-    h3{
-        font-family: 'Raleway';
-        font-size: 30px;
-        text-align: center;
-        font-weight: 400;
+     .price{
+        width: 100%;
         margin-top: 20px;
         padding-top: 30px;
         background-color: white;
-    }
-    .finishContainer{
+        display: flex;
+       justify-content: center;
 
+        h3{
+            font-family: 'Raleway';
+            font-size: 30px;
+            text-align: center;
+            font-weight: 400;
+           
+        }
+
+     }    
+  
+    .finishContainer{
         background-color: white;
         width: 100%;
         padding: 20px;
+     
+     
+       
+       
       
         .containerRed{
             display: flex;
@@ -347,7 +358,8 @@ background-color: #E5E5E5;
             border: 1px solid #FB3B64;
             border-radius: 18px; 
             margin-top: 20px;
-            margin-left: 10%;     
+            margin-left: 10%;
+            
           
             .basic{
                 width: 75px;

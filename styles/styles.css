@@ -330,14 +330,24 @@ hr {
   background-color: #55DFB4;
 }
 
-h3 {
+.price {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 30px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.price h3 {
   font-family: 'Raleway';
   font-size: 30px;
   text-align: center;
   font-weight: 400;
-  margin-top: 20px;
-  padding-top: 30px;
-  background-color: white;
 }
 
 .finishContainer {
