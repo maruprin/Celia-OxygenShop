@@ -381,7 +381,7 @@ hr {
       background-color: #fb3b64;
       width: 100px;
       height: 30px;
-      bottom: 0;
+      bottom: -10px;
       left: 40%;
       margin-left: -25px;
       border-radius: 18px;
@@ -527,8 +527,6 @@ footer {
     }
   }
   .logos {
-    position: absolute;
-    width: 50%;
     margin-top: 30px;
     margin-left: 80%;
   }
